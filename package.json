@@ -1,0 +1,50 @@
+{
+  "name": "loopback-vue-starter",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "posttest": "npm run lint && nsp check",
+    "dev": "npm run lb-start & npm run vue-serve",
+    "prod": "npm run vue-build && npm start",
+    "start": "node .",
+    "lb-start": "nodemon",
+    "vue-serve": "cd client && vue-cli-service serve",
+    "vue-build": "cd client && vue-cli-service build"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback-boot": "^2.6.5",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0",
+    "loopback-component-explorer": "^6.0.0",
+    "loopback": "^3.19.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/eslint-config-standard": "^3.0.0-beta.16",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "nodemon": "^1.17.5",
+    "nsp": "^2.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "nodemonConfig": {
+    "ignore": ["client/*"],
+    "delay": "2500"
+  },
+  "license": "UNLICENSED",
+  "description": "dashboard-generic"
+}
