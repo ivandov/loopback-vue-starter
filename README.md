@@ -16,14 +16,13 @@ npm run dev
 ```
 
 The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
+
 The Vue application will be started on [localhost:8080/#](http://localhost:8080/#/)
 
-**Note** If production mode has been run previously, the `client/dist` folder will exist and you may see an outdated version of your application loaded on [localhost:3000](http://localhost:3000/)
+**Note** If production mode has been run previously, the `client/dist` folder will exist and you may see an outdated version of your application loaded on [localhost:3000/#](http://localhost:3000/)
 
 ### Production Mode
 This mode will pack the Vue.JS frontend into a `dist` folder located under `client`. The LoopBack server will automatically serve the application from this folder as it is preconfigured to serve static assets from `client/dist`.
-
-This mode will not actively reload any changes and is meant for packaging and distribution. 
 
 To build the application for distribution and run the LoopBack server in production mode, run: 
 ```
@@ -31,10 +30,11 @@ npm run prod
 ```
 
 The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
+
 The Vue application will be started on [localhost:3000/#](http://localhost:3000/#/)
 
 
-### Enabling Additional Vue Plugins
+## Enabling Additional Vue Plugins
 Additional Vue plugins can be managed via the [vue-cli](https://cli.vuejs.org/) or using [vue ui](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui). Just import the root directory as an existing project and manage plugins as necessary.
 
 The vue-router plugin is auto-enabled since it is not easy to add it as a plugin through the UI / cli, and quite easy to remove/ignore if not used. 
