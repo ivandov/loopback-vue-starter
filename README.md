@@ -1,7 +1,7 @@
 # LoopBack Vue Starter
 This project is a starter template for integrating [LoopBack v3.x](http://loopback.io/doc/en/lb3/) and [Vue.JS v2.0](https://vuejs.org/).
 
-This project was built with [vue-cli](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
+This project was built with [vue-cli 3](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
 
 
 ## Getting Started
