@@ -4,16 +4,14 @@ The LoopBack Vue Starter template has a very minimal set of features pre-enabled
 This project was built with [vue-cli 3](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
 
 ## Run in Development Mode
-The Development mode runs the LoopBack server through Nodemon to auto-reload any changes. The UI frontend is started as a separate task on a different port. This allows for the ability to manually start the server and the UI separately if needed. 
+The Development mode runs the LoopBack server through [nodemon](https://www.npmjs.com/package/nodemon) to auto-reload any changes. The UI frontend is started as a separate task on a different port. This allows for the ability to manually start the server and the UI separately if needed. 
 
 To run the LoopBack server and Vue frontend in development mode (with active reload) run:
 ```
 npm run dev
 ```
-
-The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
-
-The Vue application will be started on [localhost:8080/#](http://localhost:8080/#/)
+- The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
+- The Vue application will be started on [localhost:8080/#](http://localhost:8080/#/)
 
 **Note** If production mode has been run previously, the `client/dist` folder will exist and you may see an outdated version of your application loaded on [localhost:3000/#](http://localhost:3000/)
 
@@ -24,10 +22,8 @@ To build the application for distribution and run the LoopBack server in product
 ```
 npm run prod
 ```
-
-The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
-
-The Vue application will be started on [localhost:3000/#](http://localhost:3000/#/)
+- The LoopBack Explorer will be starter on [localhost:3000/explorer](http://localhost:3000/explorer/)
+- The Vue application will be started on [localhost:3000/#](http://localhost:3000/#/)
 
 
 ## Enabling Additional Vue Plugins
