@@ -1,13 +1,9 @@
 # LoopBack Vue Starter
-This project is a starter template for integrating [LoopBack v3.x](http://loopback.io/doc/en/lb3/) and [Vue.JS v2.0](https://vuejs.org/).
+The LoopBack Vue Starter template has a very minimal set of features pre-enabled. The starter template uses [LoopBack v3.x](http://loopback.io/doc/en/lb3/) for API serving & management and [Vue.JS v2.0](https://vuejs.org/) as an embedded frontend client.
 
 This project was built with [vue-cli 3](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
 
-
-## Getting Started
-The starter template has a very minimal set of features pre-enabled. Follow one of these sections to get your application template up and running
-
-### Development Mode
+## Run in Development Mode
 The Development mode runs the LoopBack server through Nodemon to auto-reload any changes. The UI frontend is started as a separate task on a different port. This allows for the ability to manually start the server and the UI separately if needed. 
 
 To run the LoopBack server and Vue frontend in development mode (with active reload) run:
@@ -21,7 +17,7 @@ The Vue application will be started on [localhost:8080/#](http://localhost:8080/
 
 **Note** If production mode has been run previously, the `client/dist` folder will exist and you may see an outdated version of your application loaded on [localhost:3000/#](http://localhost:3000/)
 
-### Production Mode
+## Run in Production Mode
 This mode will pack the Vue.JS frontend into a `dist` folder located under `client`. The LoopBack server will automatically serve the application from this folder as it is preconfigured to serve static assets from `client/dist`.
 
 To build the application for distribution and run the LoopBack server in production mode, run: 
