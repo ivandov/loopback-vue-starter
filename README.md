@@ -3,6 +3,15 @@ The LoopBack Vue Starter template has a very minimal set of features pre-enabled
 
 This project was built with [vue-cli 3](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
 
+## Getting Started
+Just clone the project and install the `npm` dependencies.
+
+```
+git clone https://github.com/ivandov/loopback-vue-starter.git
+cd loopback-vue-starter
+npm install
+```
+
 ## Run in Development Mode
 The Development mode runs the LoopBack server through [nodemon](https://www.npmjs.com/package/nodemon) to auto-reload any changes. The UI frontend is started as a separate task on a different port. This allows for the ability to manually start the server and the UI separately if needed. 
 
