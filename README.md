@@ -3,6 +3,8 @@ The LoopBack Vue Starter template has a very minimal set of features pre-enabled
 
 This project was built with [vue-cli 3](https://cli.vuejs.org/) and therefore can use the `vue ui` command to manage Vue plugins.
 
+For a detailed walkthrough of building this yourself, please reference this [Strongblog post](https://strongloop.com/strongblog/embeddding-frontend-frameworks-into-loopback).
+
 ## Getting Started
 Just clone the project and install the `npm` dependencies.
 
