@@ -20,22 +20,21 @@
     "cors": "^2.5.2",
     "express-history-api-fallback": "^2.2.1",
     "helmet": "^3.10.0",
-    "loopback": "^3.19.0",
+    "loopback": "^3.26.0",
     "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^6.0.0",
+    "loopback-component-explorer": "^6.4.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.4",
     "@vue/eslint-config-standard": "^3.0.0-beta.16",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "nodemon": "^1.17.5",
-    "nsp": "^3.2.1",
     "vue-template-compiler": "^2.5.16"
   },
   "repository": {
