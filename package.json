@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^3.8.0",
-    "@vue/cli-service": "^3.8.4",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^3.0.0-beta.16",
     "eslint": "^4.18.2",
     "eslint-config-loopback": "^8.0.0",
